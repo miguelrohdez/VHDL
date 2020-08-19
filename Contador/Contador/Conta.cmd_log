@@ -1,0 +1,55 @@
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Conta.ngc" Conta.ngd
+map -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o Conta_map.ncd Conta.ngd Conta.pcf
+par -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -w -intstyle ise -ol std -t 1 Conta_map.ncd Conta.ncd Conta.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Conta Conta.ncd -o Conta.twr Conta.pcf
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Conta.ngc" Conta.ngd
+map -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o Conta_map.ncd Conta.ngd Conta.pcf
+par -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -w -intstyle ise -ol std -t 1 Conta_map.ncd Conta.ncd Conta.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Conta Conta.ncd -o Conta.twr Conta.pcf
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Conta.ngc" Conta.ngd
+map -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o Conta_map.ncd Conta.ngd Conta.pcf
+par -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -w -intstyle ise -ol std -t 1 Conta_map.ncd Conta.ncd Conta.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Conta Conta.ncd -o Conta.twr Conta.pcf
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -dd _ngo -nt timestamp -uc "Conta.ucf" -p xc3s100e-cp132-5 "Conta.ngc" Conta.ngd
+map -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o Conta_map.ncd Conta.ngd Conta.pcf
+par -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -w -intstyle ise -ol std -t 1 Conta_map.ncd Conta.ncd Conta.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Conta Conta.ncd -o Conta.twr Conta.pcf -ucf Conta.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd
+xst -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -ifn Conta.xst -ofn Conta.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -dd _ngo -nt timestamp -uc "Conta.ucf" -p xc3s100e-cp132-5 "Conta.ngc" Conta.ngd
+map -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o Conta_map.ncd Conta.ngd Conta.pcf
+par -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -w -intstyle ise -ol std -t 1 Conta_map.ncd Conta.ncd Conta.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Conta Conta.ncd -o Conta.twr Conta.pcf -ucf Conta.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/Contador/Contador/Contador.ise" -intstyle ise -f Conta.ut Conta.ncd

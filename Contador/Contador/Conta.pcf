@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map I.31 on Thu Apr 06 17:11:21 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "hab" LOCATE = SITE "N3" LEVEL 1;
+COMP "salida7seg<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "salida7seg<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "salida7seg<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "salida7seg<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "salida7seg<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "salida7seg<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "salida7seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "clkconta" LOCATE = SITE "B8" LEVEL 1;
+NET "clkconta_BUFGP/IBUFG" BEL "clkconta_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
