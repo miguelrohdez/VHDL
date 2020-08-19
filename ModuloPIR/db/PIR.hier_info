@@ -1,0 +1,38 @@
+|PIR
+InputPIR => ssalida.ACLR
+Salida <= ssalida.DB_MAX_OUTPUT_PORT_TYPE
+CLK50MHz => CLK2Hz.CLK
+CLK50MHz => contador[0].CLK
+CLK50MHz => contador[1].CLK
+CLK50MHz => contador[2].CLK
+CLK50MHz => contador[3].CLK
+CLK50MHz => contador[4].CLK
+CLK50MHz => contador[5].CLK
+CLK50MHz => contador[6].CLK
+CLK50MHz => contador[7].CLK
+CLK50MHz => contador[8].CLK
+CLK50MHz => contador[9].CLK
+CLK50MHz => contador[10].CLK
+CLK50MHz => contador[11].CLK
+CLK50MHz => contador[12].CLK
+CLK50MHz => contador[13].CLK
+CLK50MHz => contador[14].CLK
+CLK50MHz => contador[15].CLK
+CLK50MHz => contador[16].CLK
+CLK50MHz => contador[17].CLK
+CLK50MHz => contador[18].CLK
+CLK50MHz => contador[19].CLK
+CLK50MHz => contador[20].CLK
+CLK50MHz => contador[21].CLK
+CLK50MHz => contador[22].CLK
+CLK50MHz => contador[23].CLK
+CLK50MHz => contador[24].CLK
+CLK50MHz => contador[25].CLK
+CLK50MHz => contador[26].CLK
+CLK50MHz => contador[27].CLK
+CLK50MHz => contador[28].CLK
+CLK50MHz => contador[29].CLK
+CLK50MHz => contador[30].CLK
+CLK50MHz => contador[31].CLK
+
+
