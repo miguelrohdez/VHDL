@@ -1,0 +1,16 @@
+sch2verilog -intstyle ise -family spartan3e   -w "C:/Users/ALUMNO/Desktop/marh/restador/sumadorrestador.sch" sumadorrestador.vf
+xst -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -ifn sumadorrestador.xst -ofn sumadorrestador.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "sumadorrestador.ngc" sumadorrestador.ngd
+sch2verilog -intstyle ise -family spartan3e   -w "C:/Users/ALUMNO/Desktop/marh/restador/sumadorrestador.sch" sumadorrestador.vf
+xst -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -ifn sumadorrestador.xst -ofn sumadorrestador.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sumadorrestador.ucf" -p xc3s100e-cp132-5 "sumadorrestador.ngc" sumadorrestador.ngd
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sumadorrestador.ucf" -p xc3s100e-cp132-5 "sumadorrestador.ngc" sumadorrestador.ngd
+map -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o sumadorrestador_map.ncd sumadorrestador.ngd sumadorrestador.pcf
+par -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -w -intstyle ise -ol std -t 1 sumadorrestador_map.ncd sumadorrestador.ncd sumadorrestador.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml sumadorrestador sumadorrestador.ncd -o sumadorrestador.twr sumadorrestador.pcf -ucf sumadorrestador.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -f sumadorrestador.ut sumadorrestador.ncd
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sumadorrestador.ucf" -p xc3s100e-cp132-5 "sumadorrestador.ngc" sumadorrestador.ngd
+map -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o sumadorrestador_map.ncd sumadorrestador.ngd sumadorrestador.pcf
+par -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -w -intstyle ise -ol std -t 1 sumadorrestador_map.ncd sumadorrestador.ncd sumadorrestador.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -e 3 -l 3 -s 5 -xml sumadorrestador sumadorrestador.ncd -o sumadorrestador.twr sumadorrestador.pcf -ucf sumadorrestador.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/restador/restador.ise" -intstyle ise -f sumadorrestador.ut sumadorrestador.ncd

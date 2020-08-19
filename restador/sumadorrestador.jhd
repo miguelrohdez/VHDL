@@ -1,0 +1,5 @@
+MODULE sumadorrestador
+	SUBMODULE restador
+		INSTANCE XLXI_1
+	SUBMODULE restador
+		INSTANCE XLXI_4

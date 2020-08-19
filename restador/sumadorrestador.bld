@@ -1,0 +1,32 @@
+Release 8.2i ngdbuild I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\bin\nt\ngdbuild.exe -ise
+C:/Users/ALUMNO/Desktop/marh/restador/restador.ise -intstyle ise -dd _ngo -nt
+timestamp -uc sumadorrestador.ucf -p xc3s100e-cp132-5 sumadorrestador.ngc
+sumadorrestador.ngd
+
+Reading NGO file 'C:/Users/ALUMNO/Desktop/marh/restador/sumadorrestador.ngc' ...
+
+Applying constraints in "sumadorrestador.ucf" to the design...
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 91192 kilobytes
+
+Writing NGD file "sumadorrestador.ngd" ...
+
+Writing NGDBUILD log file "sumadorrestador.bld"...
