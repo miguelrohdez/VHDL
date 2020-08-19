@@ -1,0 +1,42 @@
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "DivFrec.ngc" DivFrec.ngd
+map -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -p xc3s100e-cp132-4 -cm area -pr b -k 4 -c 100 -o DivFrec_map.ncd DivFrec.ngd DivFrec.pcf
+par -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -w -intstyle ise -ol std -t 1 DivFrec_map.ncd DivFrec.ncd DivFrec.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -e 3 -l 3 -s 4 -xml DivFrec DivFrec.ncd -o DivFrec.twr DivFrec.pcf
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -f DivFrec.ut DivFrec.ncd
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -f DivFrec.ut DivFrec.ncd
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -dd _ngo -nt timestamp -uc "DivFrec.ucf" -p xc3s100e-cp132-4 "DivFrec.ngc" DivFrec.ngd
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -dd _ngo -nt timestamp -uc "DivFrec.ucf" -p xc3s100e-cp132-4 "DivFrec.ngc" DivFrec.ngd
+map -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -p xc3s100e-cp132-4 -cm area -pr b -k 4 -c 100 -o DivFrec_map.ncd DivFrec.ngd DivFrec.pcf
+par -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -w -intstyle ise -ol std -t 1 DivFrec_map.ncd DivFrec.ncd DivFrec.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -e 3 -l 3 -s 4 -xml DivFrec DivFrec.ncd -o DivFrec.twr DivFrec.pcf -ucf DivFrec.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -f DivFrec.ut DivFrec.ncd
+xst -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -ifn DivFrec.xst -ofn DivFrec.syr
+ngdbuild -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -dd _ngo -nt timestamp -uc "DivFrec.ucf" -p xc3s100e-cp132-4 "DivFrec.ngc" DivFrec.ngd
+map -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -p xc3s100e-cp132-4 -cm area -pr b -k 4 -c 100 -o DivFrec_map.ncd DivFrec.ngd DivFrec.pcf
+par -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -w -intstyle ise -ol std -t 1 DivFrec_map.ncd DivFrec.ncd DivFrec.pcf
+trce -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -e 3 -l 3 -s 4 -xml DivFrec DivFrec.ncd -o DivFrec.twr DivFrec.pcf -ucf DivFrec.ucf
+bitgen -ise "C:/Users/ALUMNO/Desktop/marh/DivisorDeFrec/DivisorDeFrec.ise" -intstyle ise -f DivFrec.ut DivFrec.ncd
